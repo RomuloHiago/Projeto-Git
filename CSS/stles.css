@@ -1,0 +1,66 @@
+/*Seletor pela tag*/
+h1 {
+    color: red;
+    background: black;
+}
+
+p {
+    color: blue;
+    font-size: 15px;
+}
+
+button {
+    background: darkorange;
+    border-color: aqua;
+}
+
+* {
+    background: ;
+}
+
+
+#explicacao {
+color: green;
+font-size: 40px;
+}
+
+#explicacao2 {
+color: aqua;
+font-size: medium;
+font-weight: bold;
+
+}
+
+#botao{
+    background-color: brown;
+
+}
+
+#botao2{
+    background-color: coral;
+}
+
+.texto{
+    color: darkslategray;
+    font-weight: bold;
+}
+
+#rgb {color: rgb(100, 20, 90)
+
+}
+
+.vo {}
+.pai {
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.filho {
+width: 50%;
+height: 50%;
+}
+
+/*O *(asterisco) significa TUDO, ou seja, ele vai selecionar tudo, 
+na página inteira/*
+

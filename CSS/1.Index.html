@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./stles.css">
+</head>
+
+<body>
+    <h1>Minha primeira aula de CSS</h1>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia laborum, eveniet enim mollitia facere, ullam maiores rem, debitis tenetur placeat quibusdam vero sequi sed adipisci laudantium ipsum quos ex maxime!</p>
+    <br>
+    <button id="botao">Clica em mim POR FAVOR</button>
+    <button id="botao2">Clica em mim seu trouxa</button>
+</body>
+
+/*No CSS utiliza as chaves "bigodinhos" e é obrigatório colocar o ; */
+</style>
+</html>
+
+<!--Posso ter um arquivo separado para o CSS
+ou também posso adicionar a tag style para estilizar-->
+
+<h1>Seletores</h1>
+
+<h1 id="explicacao">Outra maneira de linkar o html no css</h1>
+<p id="explicacao2"> Criar arquivo .css</p>
+<p class="texto">Levo os códigos para o carquivo css - não preciso de tag style lá</p>
+<p class="texto">Aviso o html na tag head</p>
+<p class="texto">Colocar tag chamada link</p>
+<p class="texto">Com relacionamento stylesheet e o href de onde está</p>
+
+<!--Aplicando os seletores para que o estilo vá para onde deve ir
+e não para todo os lugares-->
+
+<p>O asterisco no CSS é um seletor da página inteira</p>
+
+<p>Classes - Serve para identificar vários elementos
+
+    ID - Apenas um elemento pode usar
+
+    Para chamar um id no css eu coloco o #
+</p>
+
+<p id="rgb">Colocando as classes, elas podem estar em diversos lugares igualmente</p>
+<p>A classe é chamada por ponto final</p>
+<p>Posso adicionar estilos para duas classes na mesma entrada de código
+    Exemplo: .texto, .botao{ color="red"}
+    Também posso misturar ids chamando pela hastag, separendo por vírgulas.
+</p>
+
+
+<h1>Cores no CSS</h1>
+
+<p>1. Podem ser chamadas por rgb
+    EX: background: rgb(0, 0, 0) Linha 48 Cores de 0 a 255
+    
+    Outra forma é o Hexadecimal
+    Que escreve o RGB em #FF00ff
+    Cada dois dígitos é para uma cor do RGB
+    FF é o maior número de 2 dígitos no hexadecimal
+
+    Ou seja: pode usar em hexadecimal e em rgb
+</p>
+
+<!--Curiosidade Hexadecimal
+Decimal - Base 10 -> 1,2,3,4,5,6,7,8,9
+Hexadecinal - Base 16 -> 1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+10,11,12,13,15,15,16,17,18,19,1a,1b,1c,1d,1e,1f
+20...
+-->
+
+
+<h1>unidades de medidas</h1>
+
+px - 1 pixel = 1 centésimo de polegada = 0,254mm
+pode usar in e cm (polegadas e centímetros)
+
+<h1>Unidades relativas</h1>
+São relativas em relação a alguém
+Por exemplo a porcentagem
+Ela calcula a porcentagem sobre o elemento pai
+Exemplo abaixo e na linha 52 adiante
+Exemplo
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body 
+    class="vo"> 
+    <div class="pai"> 
+    </div>
+    <div class="filho">
+    </div>
+    
+</body>
+</html>
+<head> class
+</head>
+
+Temos os VW w o VH
+vw é em relação a tela - view width - 
+1vw é 1% da medida da largura da janela do navegador
+50 seria a metade
+
+vh é view height é 1% da altura da janela do navegador
+Isso para adaptar ao tamanho da tela, como estamos no celular, pc, tv
+
+Outra unidade usada é o em que é sempre relativo ao elemento pai
+Ou seja, sempre vai pegar a referencia do elemento de cima
+em significa - emphemeral unit - Unidade transitória
+
+rem significa root emphemeral unit - Raiz Unidade transitória
+Ou seja, ele sempre vai tomar como referencia o valor raiz
+
+Sempre é relativo ao mesmo elemento.
+Se é font-size ele vai procurar o font-sise, se assim por diante

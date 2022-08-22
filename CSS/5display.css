@@ -1,0 +1,18 @@
+.box {
+    background: #ff1395;
+    width: 50px;
+    height: 50px;
+}
+
+.box-2 {
+    background: #ffff00;
+    width: 50px;
+    height: 50px;
+}
+
+
+.box-3 {
+    background: #0003ff;
+    width: 50px;
+    height: 50px;
+}
